@@ -4,6 +4,11 @@
 *.tfstate.*
 *.tfvars
 *.tfvars.json
+*.tfplan
+*.tfplan.json
+tfplan
+plan.out
+.terraformrc
 crash.log
 crash.*.log
 override.tf

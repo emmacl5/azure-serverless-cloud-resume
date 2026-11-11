@@ -1,0 +1,51 @@
+# Terraform Variables Template
+# Copy this file to 'terraform.tfvars' and populate with your actual values
+# IMPORTANT: terraform.tfvars is gitignored and should NEVER be committed
+
+# ============================================================================
+# Azure Subscription Configuration
+# ============================================================================
+
+# Your Azure Subscription ID (from: az account show --query id -o tsv)
+subscription_id = "00000000-0000-0000-0000-000000000000"
+
+# ============================================================================
+# Resource Group Configuration
+# ============================================================================
+
+resource_group_name = "rg-cloud-resume-prod"
+location            = "westeurope"
+
+# ============================================================================
+# Static Web App Configuration
+# ============================================================================
+
+static_web_app_name = "emmacl5-cloud-resume"
+sku_tier            = "Free"
+sku_size            = "Free"
+
+# ============================================================================
+# GitHub Repository Configuration
+# ============================================================================
+
+github_repo_url = "https://github.com/emmacl5/azure-serverless-cloud-resume"
+github_branch   = "main"
+
+# ============================================================================
+# Build Configuration
+# ============================================================================
+
+app_location    = "frontend"
+output_location = "dist"
+api_location    = ""
+
+# ============================================================================
+# Resource Tags
+# ============================================================================
+
+tags = {
+  Project     = "Azure Cloud Resume Challenge"
+  Environment = "Production"
+  ManagedBy   = "Terraform"
+  Repository  = "https://github.com/emmacl5/azure-serverless-cloud-resume"
+}
