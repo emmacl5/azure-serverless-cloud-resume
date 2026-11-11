@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Claude Emmanuel Ouamba - Aspiring Cloud & DevOps Engineer. Azure, AWS, Terraform, Python specialist.">
+    <meta name="author" content="Claude Emmanuel Ouamba">
+    <title>Claude Emmanuel Ouamba | Cloud & DevOps Engineer</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 w-full z-50 nav-blur border-b border-gray-200 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo/Name -->
+                <a href="#hero" class="text-xl font-bold text-white hover:text-sky-400 transition-colors">
+                    CEO
+                </a>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors">About</a>
+                    <a href="#skills" class="text-gray-300 hover:text-white transition-colors">Skills</a>
+                    <a href="#experience" class="text-gray-300 hover:text-white transition-colors">Experience</a>
+                    <a href="#projects" class="text-gray-300 hover:text-white transition-colors">Projects</a>
+                    <a href="#certifications" class="text-gray-300 hover:text-white transition-colors">Certifications</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-sky-500 rounded p-2" aria-label="Toggle menu" aria-expanded="false">
+                    <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 border-t border-gray-700">
+            <div class="px-4 py-3 space-y-3">
+                <a href="#about" class="block text-gray-300 hover:text-white transition-colors">About</a>
+                <a href="#skills" class="block text-gray-300 hover:text-white transition-colors">Skills</a>
+                <a href="#experience" class="block text-gray-300 hover:text-white transition-colors">Experience</a>
+                <a href="#projects" class="block text-gray-300 hover:text-white transition-colors">Projects</a>
+                <a href="#certifications" class="block text-gray-300 hover:text-white transition-colors">Certifications</a>
+                <a href="#contact" class="block text-gray-300 hover:text-white transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-gradient min-h-screen flex items-center justify-center pt-16">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <!-- Professional Photo -->
+                <div class="mb-10 inline-block animate-fadeIn">
+                    <img
+                        src="profile.png"
+                        alt="Claude Emmanuel Ouamba — professional portrait"
+                        class="w-44 h-44 sm:w-60 sm:h-60 lg:w-70 lg:h-70 rounded-full mx-auto"
+                    />
+                </div>
+
+                <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 animate-fadeIn" style="animation-delay: 0.1s;">
+                    Claude Emmanuel Ouamba
+                </h1>
+                <p class="text-2xl md:text-3xl text-sky-300 mb-8 animate-fadeIn" style="animation-delay: 0.2s;">
+                    Aspiring Cloud & DevOps Engineer
+                </p>
+                <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-10 animate-fadeIn" style="animation-delay: 0.3s;">
+                    Passionate about cloud infrastructure, automation, and building scalable solutions with Azure, AWS, and modern DevOps practices.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn" style="animation-delay: 0.4s;">
+                    <a href="#projects" class="btn-azure inline-block">View Projects</a>
+                    <a href="#contact" class="bg-white text-gray-900 px-6 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-white">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-8 text-center">About Me</h2>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <p class="text-lg text-gray-700 mb-4">
+                            I am an aspiring Cloud & DevOps Engineer with a strong foundation in IT infrastructure, server administration, and networking technologies.
+                        </p>
+                        <p class="text-lg text-gray-700 mb-4">
+                            My passion lies in leveraging cloud platforms like Microsoft Azure and AWS to build resilient, scalable, and automated infrastructure solutions.
+                        </p>
+                        <p class="text-lg text-gray-700">
+                            I am committed to continuous learning and staying current with cloud technologies, Infrastructure as Code, containerization, and CI/CD best practices.
+                        </p>
+                    </div>
+                    <div class="bg-gradient-to-br from-sky-100 to-blue-100 rounded-lg p-8">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-4">Focus Areas</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-sky-600 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700">Cloud Infrastructure (Azure, AWS)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-sky-600 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700">Infrastructure as Code (Terraform)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-sky-600 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700">Automation & CI/CD Pipelines</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-sky-600 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700">Containerization (Docker)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Technical Skills</h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Cloud Platforms & Services -->
+                    <div class="bg-white rounded-lg p-6 shadow-md card-hover">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                            <svg class="w-6 h-6 text-sky-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z"></path>
+                            </svg>
+                            Cloud Platforms & Services
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-badge">Microsoft Azure</span>
+                            <span class="skill-badge">Amazon Web Services (AWS)</span>
+                            <span class="skill-badge">Azure Functions</span>
+                            <span class="skill-badge">Azure Cosmos DB</span>
+                        </div>
+                    </div>
+
+                    <!-- Infrastructure as Code -->
+                    <div class="bg-white rounded-lg p-6 shadow-md card-hover">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                            <svg class="w-6 h-6 text-sky-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                            </svg>
+                            Infrastructure as Code
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-badge">Terraform</span>
+                            <span class="skill-badge">AWS CloudFormation</span>
+                            <span class="skill-badge">ARM Templates</span>
+                            <span class="skill-badge">Bicep</span>
+                        </div>
+                    </div>
+
+                    <!-- DevOps & CI/CD -->
+                    <div class="bg-white rounded-lg p-6 shadow-md card-hover">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                            <svg class="w-6 h-6 text-sky-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                            </svg>
+                            DevOps & CI/CD
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-badge">GitHub Actions</span>
+                            <span class="skill-badge">Azure DevOps</span>
+                            <span class="skill-badge">Docker</span>
+                            <span class="skill-badge">Git</span>
+                        </div>
+                    </div>
+
+                    <!-- Programming & Scripting -->
+                    <div class="bg-white rounded-lg p-6 shadow-md card-hover">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                            <svg class="w-6 h-6 text-sky-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-2.22l.123.489.804.804A1 1 0 0113 18H7a1 1 0 01-.707-1.707l.804-.804L7.22 15H5a2 2 0 01-2-2V5zm5.771 7H5V5h10v7H8.771z" clip-rule="evenodd"></path>
+                            </svg>
+                            Programming & Scripting
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">Bash</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">PowerShell</span>
+                            <span class="skill-badge">YAML</span>
+                        </div>
+                    </div>
+
+                    <!-- Systems & Administration -->
+                    <div class="bg-white rounded-lg p-6 shadow-md card-hover">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                            <svg class="w-6 h-6 text-sky-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L7.586 10 5.293 7.707a1 1 0 010-1.414zM11 12a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"></path>
+                            </svg>
+                            Systems & Administration
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-badge">Linux</span>
+                            <span class="skill-badge">Windows Server</span>
+                            <span class="skill-badge">Ubuntu</span>
+                        </div>
+                    </div>
+
+                    <!-- Monitoring & Observability -->
+                    <div class="bg-white rounded-lg p-6 shadow-md card-hover">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+                            <svg class="w-6 h-6 text-sky-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"></path>
+                            </svg>
+                            Monitoring & Observability
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="skill-badge">Azure Monitor</span>
+                            <span class="skill-badge">Application Insights</span>
+                            <span class="skill-badge">Amazon CloudWatch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-20 bg-white">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Professional Experience</h2>
+
+                <div class="relative">
+                    <!-- Timeline line -->
+                    <div class="hidden md:block absolute left-8 top-0 bottom-0 w-0.5 bg-gray-300"></div>
+
+                    <!-- Experience items -->
+                    <div class="space-y-12">
+                        <!-- Telia Cygate Oy -->
+                        <div class="relative pl-0 md:pl-20">
+                            <div class="hidden md:block absolute left-6 top-6 w-5 h-5 bg-sky-600 rounded-full border-4 border-white shadow"></div>
+                            <div class="bg-gray-50 rounded-lg p-6 shadow-md card-hover">
+                                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                                    <h3 class="text-xl font-semibold text-gray-900">ICT Specialist</h3>
+                                    <span class="text-sm text-gray-600 font-medium">October 2023 - December 2023</span>
+                                </div>
+                                <p class="text-sky-700 font-medium mb-3">Telia Cygate Oy • Finland</p>
+                                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                                    <li>Monitored IT environments, services, networks and servers supporting internal and external customers</li>
+                                    <li>Responded to IT incidents, investigated technical issues and supported service restoration</li>
+                                    <li>Documented incidents, prepared reports, and communicated service updates to customers and stakeholders</li>
+                                    <li>Participated in maintenance and change activities involving server, network, data center and cloud environments</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Projects</h2>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Azure Cloud Resume Project -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg card-hover">
+                        <div class="bg-gradient-to-br from-sky-500 to-blue-600 h-48 flex items-center justify-center">
+                            <svg class="w-24 h-24 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z"></path>
+                            </svg>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-3">Azure Serverless Cloud Resume</h3>
+                            <p class="text-gray-700 mb-4">
+                                A full-stack serverless application showcasing cloud architecture skills using Azure Static Web Apps, Azure Functions, Cosmos DB, and Infrastructure as Code with Terraform.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-sky-100 text-sky-800 px-3 py-1 rounded-full font-semibold">Azure</span>
+                                <span class="text-xs bg-sky-100 text-sky-800 px-3 py-1 rounded-full font-semibold">Terraform</span>
+                                <span class="text-xs bg-sky-100 text-sky-800 px-3 py-1 rounded-full font-semibold">Python</span>
+                                <span class="text-xs bg-sky-100 text-sky-800 px-3 py-1 rounded-full font-semibold">CI/CD</span>
+                            </div>
+                            <a href="https://github.com/emmacl5/cloud-resume" target="_blank" rel="noopener noreferrer"
+                               class="inline-flex items-center text-sky-700 hover:text-sky-900 font-semibold">
+                                View on GitHub
+                                <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
+                                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Additional verified projects can be added here -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-lg card-hover border-2 border-dashed border-gray-300">
+                        <div class="bg-gradient-to-br from-gray-100 to-gray-200 h-48 flex items-center justify-center">
+                            <svg class="w-24 h-24 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-gray-400 mb-3">Additional Projects</h3>
+                            <p class="text-gray-500 mb-4">
+                                More projects coming soon. Check my GitHub profile for additional work.
+                            </p>
+                            <a href="https://github.com/emmacl5" target="_blank" rel="noopener noreferrer"
+                               class="inline-flex items-center text-gray-600 hover:text-gray-900 font-semibold">
+                                View GitHub Profile
+                                <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
+                                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="py-20 bg-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Certifications</h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- AWS Solutions Architect -->
+                    <div class="cert-badge bg-white rounded-lg p-6 shadow-lg border-2 border-orange-200 card-hover">
+                        <div class="flex justify-center mb-4">
+                            <div class="w-20 h-20 bg-gradient-to-br from-orange-500 to-yellow-600 rounded-full flex items-center justify-center">
+                                <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-900 mb-2">AWS Certified Solutions Architect – Associate</h3>
+                        <p class="text-center text-orange-700 font-semibold mb-2">SAA-C03</p>
+                        <div class="flex justify-center">
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">Certified</span>
+                        </div>
+                    </div>
+
+                    <!-- Azure Fundamentals -->
+                    <div class="cert-badge bg-white rounded-lg p-6 shadow-lg border-2 border-sky-200 card-hover">
+                        <div class="flex justify-center mb-4">
+                            <div class="w-20 h-20 bg-gradient-to-br from-sky-500 to-blue-600 rounded-full flex items-center justify-center">
+                                <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-900 mb-2">Microsoft Certified: Azure Fundamentals</h3>
+                        <p class="text-center text-sky-700 font-semibold mb-2">AZ-900</p>
+                        <div class="flex justify-center">
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">Certified</span>
+                        </div>
+                    </div>
+
+                    <!-- Terraform Associate -->
+                    <div class="cert-badge bg-white rounded-lg p-6 shadow-lg border-2 border-purple-200 card-hover">
+                        <div class="flex justify-center mb-4">
+                            <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center">
+                                <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-900 mb-2">HashiCorp Certified: Terraform Associate</h3>
+                        <p class="text-center text-purple-700 font-semibold mb-2">003</p>
+                        <div class="flex justify-center">
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">Certified</span>
+                        </div>
+                    </div>
+
+                    <!-- Azure Administrator - In Progress -->
+                    <div class="cert-badge bg-white rounded-lg p-6 shadow-lg border-2 border-sky-200 card-hover">
+                        <div class="flex justify-center mb-4">
+                            <div class="w-20 h-20 bg-gradient-to-br from-sky-500 to-blue-600 rounded-full flex items-center justify-center">
+                                <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-center text-gray-900 mb-2">Microsoft Certified: Azure Administrator</h3>
+                        <p class="text-center text-sky-700 font-semibold mb-2">AZ-104</p>
+                        <div class="flex justify-center">
+                            <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm font-semibold">In Progress</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-gray-50">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Get In Touch</h2>
+
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <p class="text-lg text-gray-700 text-center mb-8">
+                        I'm always interested in discussing cloud infrastructure, DevOps practices, and new opportunities.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+                        <!-- GitHub -->
+                        <a href="https://github.com/emmacl5" target="_blank" rel="noopener noreferrer"
+                           class="flex items-center bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors shadow-md">
+                            <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+                            </svg>
+                            GitHub Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <!-- Visitor Counter Placeholder -->
+                <div class="mb-6">
+                    <p class="text-gray-400 mb-2">Visitor Counter</p>
+                    <div class="inline-flex items-center bg-slate-800 px-6 py-3 rounded-lg border border-gray-700">
+                        <svg class="w-5 h-5 text-sky-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span id="visitor-count" class="text-xl font-semibold text-gray-300">Coming soon</span>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <p class="text-gray-400">
+                    &copy; 2026 Claude Emmanuel Ouamba. Built with Azure, Tailwind CSS, and Terraform.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

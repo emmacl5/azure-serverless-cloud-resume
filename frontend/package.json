@@ -1,0 +1,24 @@
+{
+  "name": "azure-cloud-resume",
+  "version": "1.0.0",
+  "description": "Azure Serverless Cloud Resume - Frontend",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "build:assets": "cp index.html dist/index.html && cp src/main.js dist/main.js && cp public/profile.png dist/profile.png",
+    "build": "npm run build:css && npm run build:assets",
+    "preview": "python3 -m http.server 3000 --directory dist"
+  },
+  "keywords": [
+    "azure",
+    "cloud",
+    "resume",
+    "devops"
+  ],
+  "author": "Claude Emmanuel Ouamba",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}
