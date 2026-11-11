@@ -1,7 +1,7 @@
 # Azure Serverless Cloud Resume
 
 ## Overview
-A serverless cloud resume website demonstrating Microsoft Azure, Terraform, Python, and DevOps practices.
+A serverless cloud resume website demonstrating Microsoft Azure, Terraform, Python and DevOps practices.
 
 ## Planned Architecture
 - Frontend: HTML, CSS, JavaScript, Tailwind CSS
